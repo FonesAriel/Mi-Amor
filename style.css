@@ -3,13 +3,14 @@
 #card {
   height: 500px;
   width: 800px;
-  margin: 37em auto;
   position: fixed;
-  top: -15px;
-  left: 11%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   visibility: hidden;
 }
+
 
 #card h2 {
   font-size: 3em;
@@ -177,4 +178,3 @@ body {
 .valentines-day:hover .text {
   transform: translateY(-50px);
 }
-
