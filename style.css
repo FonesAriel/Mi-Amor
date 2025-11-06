@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 #card {
-  height: 500px;
   width: 800px;
+  height: 500px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -177,4 +177,14 @@ body {
 
 .valentines-day:hover .text {
   transform: translateY(-50px);
+}
+/* --- Adaptación para pantallas chicas (como Samsung A54) --- */
+@media screen and (max-width: 900px) {
+  #card {
+    width: 90%;            /* ocupa casi todo el ancho del celular */
+    height: auto;          /* que se adapte a la altura del contenido */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
