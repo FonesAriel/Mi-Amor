@@ -3,10 +3,10 @@
 #card {
   height: 500px;
   width: 800px;
-  margin: 5em auto;
+  margin: 37em auto;
   position: fixed;
   top: -15px;
-  left: 25%;
+  left: 11%%;
   display: flex;
   visibility: hidden;
 }
@@ -176,4 +176,18 @@ body {
 
 .valentines-day:hover .text {
   transform: translateY(-50px);
+}
+
+/* 📱 Adaptación para celular */
+@media screen and (max-width: 768px) {
+  #card {
+    height: 500px;
+    width: 800px;
+    margin: 37em auto;
+    position: fixed;
+    top: -15px;
+    left: 25%;
+    display: flex;
+    visibility: hidden;
+  }
 }
