@@ -5,7 +5,7 @@
   height: 500px;
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 13%;
   transform: translate(-50%, -50%);
   display: flex;
   visibility: hidden;
@@ -178,13 +178,16 @@ body {
 .valentines-day:hover .text {
   transform: translateY(-50px);
 }
+
 /* --- Adaptación para pantallas chicas (como Samsung A54) --- */
 @media screen and (max-width: 900px) {
   #card {
-    width: 90%;            /* ocupa casi todo el ancho del celular */
-    height: auto;          /* que se adapte a la altura del contenido */
+    width: 90%;
+    /* ocupa casi todo el ancho del celular */
+    height: auto;
+    /* que se adapte a la altura del contenido */
     top: 50%;
-    left: 50%;
+    left: 13%;
     transform: translate(-50%, -50%);
   }
 }
