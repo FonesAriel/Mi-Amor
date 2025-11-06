@@ -182,11 +182,12 @@ body {
 /* --- Adaptación para pantallas chicas (como Samsung A54) --- */
 @media screen and (max-width: 900px) {
   #card {
-    width: 90%;            /* ocupa casi todo el ancho del celular */
-    height: auto;          /* se adapta a la altura del contenido */
+    width: 90%;
+    height: auto;
     position: fixed;
-    top: 50%;              /* centrado vertical */
-    left: 50%;             /* centrado horizontal */
+    top: 40%;              /* antes 50% → más arriba */
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
+
