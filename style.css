@@ -4,7 +4,7 @@
   width: 800px;
   height: 500px;
   position: fixed;
-  top: 50%;
+  top: 35%;
   left: 13%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -185,7 +185,7 @@ body {
     width: 90%;
     height: auto;
     position: fixed;
-    top: 40%;              /* antes 50% → más arriba */
+    top: 35%;              /* antes 50% → más arriba */
     left: 50%;
     transform: translate(-50%, -50%);
   }
